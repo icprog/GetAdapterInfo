@@ -1,7 +1,8 @@
 GetAdapterInfo
 ==============
 
-GetAdapterInfo package include some useful function for control DUT. Run 'arp command', 'ping IP address', 'get Lan MAC', 'run telnetenable.exe', 'run telnet' and 'kill a process'.
+GetAdapterInfo package include some useful function for control DUT. Run 'arp command', 'ping IP address', 'get Lan MAC', 
+'run telnetenable.exe', 'run telnet' and 'kill a process'.
 This package is IDE is VS2005.
 
 This function define list:
