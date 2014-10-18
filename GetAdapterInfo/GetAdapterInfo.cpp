@@ -290,7 +290,14 @@ bool IP_TelnetEnable(char *pIpAddr,char* pMac)
 	}
 
 	char szCmd[512]="";
-	sprintf_s(szCmd,sizeof(szCmd),"telnetenable.exe %s %s Gearguy Geardog",pIpAddr,pMac);
+	/*
+	Some new project change telnetenable.exe and username and password
+	The new username and password need pair new telnetenable.exe file
+	The username change from Gearguy to admin
+	The password change from Gearguy to admin
+	*/
+	//sprintf_s(szCmd,sizeof(szCmd),"telnetenable.exe %s %s Gearguy Geardog",pIpAddr,pMac);
+	//sprintf_s(szCmd,sizeof(szCmd),"telnetenable.exe %s %s admin admin",pIpAddr,pMac);
 	os<<szCmd<<endl;
 	printf("%s\n",szCmd);
     STARTUPINFO si;
