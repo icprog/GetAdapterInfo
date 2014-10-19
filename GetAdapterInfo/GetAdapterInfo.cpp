@@ -297,7 +297,7 @@ bool IP_TelnetEnable(char *pIpAddr,char* pMac)
 	The password change from Gearguy to admin
 	*/
 	//sprintf_s(szCmd,sizeof(szCmd),"telnetenable.exe %s %s Gearguy Geardog",pIpAddr,pMac);
-	//sprintf_s(szCmd,sizeof(szCmd),"telnetenable.exe %s %s admin admin",pIpAddr,pMac);
+	sprintf_s(szCmd,sizeof(szCmd),"telnetenable.exe %s %s admin admin",pIpAddr,pMac);
 	os<<szCmd<<endl;
 	printf("%s\n",szCmd);
     STARTUPINFO si;
